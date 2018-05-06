@@ -6,9 +6,19 @@
     "type": "git",
     "url": "git://github.com/almasaeed2010/AdminLTE.git"
   },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack --env prod"
+  },
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
     "R2": "^1.4.3",
+    "babel-loader": "8.0.0-beta.0",
+    "css-loader": "^0.28.8",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
     "grunt": "^0.4.5",
     "grunt-bootlint": "^0.9.1",
     "grunt-contrib-clean": "^0.6.0",
@@ -26,7 +36,16 @@
     "grunt-less": "^0.1.7",
     "grunt-notify": "^0.4.5",
     "grunt-text-replace": "^0.4.0",
-    "less": "^2.7.2"
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "less": "^2.7.2",
+    "node-sass": "^4.7.2",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^3.1.2",
+    "webpack-merge": "^4.1.1"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
